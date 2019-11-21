@@ -20,7 +20,7 @@ AppState reducer(AppState prev, action) {
   return prev;
 }
 
-class Example3 extends StatelessWidget {
+class ExampleRedux extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(

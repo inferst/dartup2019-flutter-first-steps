@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:barcode_scan/barcode_scan.dart';
 import 'package:flutter/services.dart';
 
-class Example2 extends StatefulWidget {
+class ExampleQrScanner extends StatefulWidget {
   @override
-  Example2State createState() {
-    return new Example2State();
+  ExampleQrScannerState createState() {
+    return new ExampleQrScannerState();
   }
 }
 
-class Example2State extends State<Example2> {
+class ExampleQrScannerState extends State<ExampleQrScanner> {
   String result = "Hey there !";
 
   Future _scanQR() async {
@@ -62,7 +62,7 @@ class Example2State extends State<Example2> {
   Widget _getResult(String result) {
     return Text(
       result,
-      style: new TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
+      style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
     );
   }
 }

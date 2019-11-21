@@ -1,6 +1,6 @@
-# dartup_example
+# DartUp 2019 Flutter Examples
 
-A new Flutter application.
+Test applications for DartUp 2019 Conference
 
 ## Getting Started
 

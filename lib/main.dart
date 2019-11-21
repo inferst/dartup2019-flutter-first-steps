@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Example1()),
+                    MaterialPageRoute(builder: (context) => ExampleCalculator()),
                   );
                 },
                 child: const Text(
@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Example2()),
+                    MaterialPageRoute(builder: (context) => ExampleQrScanner()),
                   );
                 },
                 child: const Text(
@@ -83,7 +83,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Example3()),
+                    MaterialPageRoute(builder: (context) => ExampleRedux()),
                   );
                 },
                 child: const Text(

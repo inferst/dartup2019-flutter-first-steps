@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Example1 extends StatefulWidget {
+class ExampleCalculator extends StatefulWidget {
   @override
-  State createState() => new Example1State();
+  State createState() => new ExampleCalculatorState();
 }
 
-class Example1State extends State<Example1> {
+class ExampleCalculatorState extends State<ExampleCalculator> {
   var num1 = 0, num2 = 0, sum = 0;
 
   final TextEditingController t1 = new TextEditingController(text: "0");
